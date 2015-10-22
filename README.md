@@ -1,0 +1,8 @@
+# Popover实现屏幕上浮现视图
+
+在UITableViewController 上加一个UINavigationController
+
+在UINavigationController 上加入PopoverController
+
+最后调用popover的方法
+popOverController.presentPopoverFromBarButtonItem(sender, permittedArrowDirections: UIPopoverArrowDirection.Any, animated: true)
